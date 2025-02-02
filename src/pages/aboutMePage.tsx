@@ -4,21 +4,19 @@ import me from "../../assets/me.png";
 const AboutMePage = () => {
     return (
         <div
-            className="w-full min-h-screen flex flex-col md:flex-row justify-center items-center p-10 md:p-[10rem] gap-8"
+            className="w-full min-h-screen flex flex-col md:flex-row justify-between max-w-screen-2xl mx-auto items-center md:p-[10rem] gap-8"
             data-aos="slide-right"
         >
-            {/* Seção da Imagem */}
-            <div className="flex-1 flex items-center justify-center">
+            <div className="flex-1 flex items-center justify-start">
                 <Image
                     src={me}
                     alt="Minha imagem"
-                    width={500}
-                    height={500}
+                    width={400}
+                    height={400}
                     className="rounded-full w-64 md:w-[500px] h-auto"
                 />
             </div>
 
-            {/* Seção de Texto */}
             <div className="flex-1 flex items-center justify-center">
                 <div className="w-full max-w-screen-lg flex flex-col justify-center items-center text-center">
                     <p className="text-2xl md:text-[2rem] text-textColor font-bold pb-5">About Me</p>
