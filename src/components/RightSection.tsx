@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import meImage from '../../assets/me-real.png';
+import meImage from '../assets/me-real.png';
 
 const RightSection = () => {
     return (
