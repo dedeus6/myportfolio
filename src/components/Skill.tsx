@@ -1,3 +1,5 @@
+import SvgComponent from "./SvgIcon";
+
 interface SkillProps {
     name: string;
     svg: string;
@@ -10,15 +12,7 @@ const Skill = ({ name, svg, customViewBox }: SkillProps) => {
             <span className="group-hover:w-full absolute left-0 h-full w-5 border-y border-l border-[--purple] transition-all duration-500"></span>
 
             <p className="group-hover:opacity-0 group-hover:translate-x-[-100%] absolute translate-x-0 transition-all duration-200">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox={customViewBox}
-                    className="w-20 h-20 text-icon-color"
-                >
-                    <g fill="currentColor" fillRule="nonzero" stroke="none" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="miter">
-                        <path d={svg}></path>
-                    </g>
-                </svg>
+                <SvgComponent customViewBox={customViewBox} svg={svg} customWeightHeight="w-20 h-20"/>
             </p>
 
             <span className="group-hover:translate-x-0  group-hover:opacity-100 absolute translate-x-full opacity-0  transition-all duration-200">{name}</span>

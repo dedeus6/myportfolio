@@ -4,7 +4,7 @@
 
 :root {
   --primary-bg: #13131F;
-  --secondary-bg: #212121;
+  --secondary-bg: #1E1E2E;
   --text-color: #F9F9F9;
   --secondary-text-color: #828282;
   --purple: #8257E6;
@@ -15,7 +15,7 @@
 
 .light {
   --primary-bg: #F9F9F9;
-  --secondary-bg: #ffffff;
+  --secondary-bg: #1E1E2E;
   --text-color: #13131F;
   --secondary-text-color: #828282;
   --icon-color: #13131F;
