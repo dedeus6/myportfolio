@@ -1,5 +1,4 @@
 import ThemeSwitcherButton from "@/components/ThemeSwticherButton";
-import Link from "next/link";
 
 const Header = () => {
     return (
