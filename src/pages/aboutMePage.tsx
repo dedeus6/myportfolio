@@ -22,7 +22,7 @@ const AboutMePage = () => {
                         </p>
                         <br />
                         <p className="text-textColor">
-                            I have worked on the development of a comprehensive platform for QA professionals management, the modernization of legacy systems, and high-load critical projects. Currently, I am part of the team responsible for Pix at Cielo, ensuring the stability and performance of one of Brazil's main payment methods, using reactive programming with Spring WebFlux. My experience includes process optimization, scalability, and delivering robust solutions for large transaction volumes.
+                            I have worked on the development of a comprehensive platform for QA professionals management, the modernization of legacy systems, and high-load critical projects. Currently, I am part of the team responsible for Pix at Cielo, ensuring the stability and performance of one of Brazil&apos;s main payment methods, using reactive programming with Spring WebFlux. My experience includes process optimization, scalability, and delivering robust solutions for large transaction volumes.
                         </p>
                     </div>
                 </div>
