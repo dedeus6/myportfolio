@@ -1,6 +1,6 @@
 "use client";
 
-import { getCookie, setCookie, useGetCookie } from "cookies-next";
+import { getCookie, setCookie } from "cookies-next";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import Image from "next/image";
