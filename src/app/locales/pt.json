@@ -1,0 +1,16 @@
+{
+    "presentation": {
+        "welcome": "Oi, eu sou",
+        "role": "Engenheiro de Software",
+        "resumeButton": "Currículo",
+        "talkToMeButton": "Fale comigo"
+    },
+    "aboutMe": {
+        "aboutTitle": "Sobre mim",
+        "aboutTextFirst": "Engenheiro de software com 5 anos de experiência, especializado em backend com uma sólida base em frontend. Trabalho com Java, Python, TypeScript, bancos de dados SQL/NoSQL e AWS, desenvolvendo sistemas escaláveis e de alto desempenho.",
+        "aboutTextSecond": "Trabalhei no desenvolvimento de uma plataforma completa para gestão de profissionais de QA, na modernização de sistemas legados e em projetos críticos de alta carga. Atualmente, faço parte do time responsável pelo Pix na Cielo, garantindo a estabilidade e o desempenho de um dos principais meios de pagamento do Brasil, utilizando programação reativa com Spring WebFlux. Minha experiência inclui otimização de processos, escalabilidade e entrega de soluções robustas para grandes volumes de transações."
+    },
+    "skills": {
+        "skillsTitle": "Habilidades"
+    }
+}

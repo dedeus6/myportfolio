@@ -1,5 +1,9 @@
+import { useTranslations } from "next-intl";
+
 const MailButton = () => {
     const email = 'filipedeus2015@gmail.com';
+
+    const t = useTranslations("presentation");
 
     const handleClick = () => {
         window.location.href = `mailto:${email}`;
@@ -19,7 +23,7 @@ const MailButton = () => {
                             <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
                         </svg>
                     </span>
-                    <span className="absolute flex items-center justify-center w-full h-full text-textColor transition-all duration-300 transform group-hover:translate-x-full ease">Talk to me</span>
+                    <span className="absolute flex items-center justify-center w-full h-full text-textColor transition-all duration-300 transform group-hover:translate-x-full ease">{t("talkToMeButton")}</span>
                     <span className="relative invisible">Continue</span>
                 </button>
             </div>

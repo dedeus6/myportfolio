@@ -1,7 +1,18 @@
+import { getCookie } from "cookies-next";
+import { useTranslations } from "next-intl";
+
 const ResumeButton = () => {
 
+    const t = useTranslations("presentation");
+
     const handleDownload = () => {
-        window.open("/resume.pdf", "_blank");
+        const locale = getCookie("LOCALE");
+
+        if (locale == "en") {
+            window.open("/resume.pdf", "_blank");
+        } else {
+            window.open("/curriculo.pdf", "_blank");
+        }
     };
 
     return (
@@ -13,7 +24,7 @@ const ResumeButton = () => {
                             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 15v2a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-2m-8 1V4m0 12-4-4m4 4 4-4" />
                         </svg>
                     </span>
-                    <span className="absolute flex items-center justify-center w-full h-full text-textColor transition-all duration-300 transform group-hover:translate-x-full ease">Resume</span>
+                    <span className="absolute flex items-center justify-center w-full h-full text-textColor transition-all duration-300 transform group-hover:translate-x-full ease">{t("resumeButton")}</span>
                     <span className="relative invisible">Continue</span>
                 </button>
             </div>
