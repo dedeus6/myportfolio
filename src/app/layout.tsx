@@ -1,4 +1,4 @@
-import ThemeProvider from "@/providers/ThemeProvider";
+import ThemeProvider from "@/app/providers/ThemeProvider";
 import "./globals.css";
 import { getLocale, getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";

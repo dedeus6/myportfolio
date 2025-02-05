@@ -1,7 +1,7 @@
 'use client';
 
-import MailButton from "@/components/MailButton";
-import ResumeButton from "@/components/ResumeButton";
+import MailButton from "@/app/components/MailButton";
+import ResumeButton from "@/app/components/ResumeButton";
 import { useTranslations } from "next-intl";
 
 const LeftSection = () => {

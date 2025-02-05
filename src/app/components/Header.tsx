@@ -1,6 +1,6 @@
 "use client";
 
-import ThemeSwitcherButton from "@/components/ThemeSwticherButton";
+import ThemeSwitcherButton from "@/app/components/ThemeSwticherButton";
 import LanguageSwitcherButton from "./LanguageSwitcherButton";
 
 

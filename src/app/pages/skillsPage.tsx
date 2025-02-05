@@ -1,8 +1,8 @@
 "use client";
 
-import Skill from "@/components/Skill";
+import Skill from "@/app/components/Skill";
 import { useTranslations } from "next-intl";
-import skills from "@/data/SkillsData";
+import skills from "@/app/data/SkillsData";
 
 const SkillsPage = () => {
 

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import me from "../assets/me.png";
-import SvgComponent from "@/components/SvgIcon";
+import SvgComponent from "@/app/components/SvgIcon";
 import { useTranslations } from "next-intl";
 
 const AboutMePage = () => {

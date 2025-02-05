@@ -1,5 +1,5 @@
-import RightSection from "@/components/RightSection";
-import LeftSection from "@/components/LeftSection";
+import RightSection from "@/app/components/RightSection";
+import LeftSection from "@/app/components/LeftSection";
 
 const PresentationPage = () => {
     return (
