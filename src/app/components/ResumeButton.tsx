@@ -8,10 +8,10 @@ const ResumeButton = () => {
     const handleDownload = () => {
         const locale = getCookie("LOCALE");
 
-        if (locale == "en") {
-            window.open("/resume.pdf", "_blank");
-        } else {
+        if (locale == "pt") {
             window.open("/curriculo.pdf", "_blank");
+        } else {
+            window.open("/resume.pdf", "_blank");
         }
     };
 
